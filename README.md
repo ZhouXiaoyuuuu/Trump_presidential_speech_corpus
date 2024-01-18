@@ -7,3 +7,4 @@ Political speech plays a crucial role in comprehending political discourse, as i
 &bull; What vocabulary Donald Trump tends to use and what factors are associated with vocabulary changes?
 # Documentation
 **Corpus Description**
+This corpus consists of data collected on presidential speeches of Donald Trump, sourced from the Miller Center's website. (https://millercenter.org/the-presidency/presidential-speeches) This is a corpus of text data--speeches given by U.S. presidents, from George Washington's time to the contemporary presidency. The collection is not exhaustive; inclusion in the collection is an editorial decision by Miller Center staff. However, staff members will not make any artificial alterations to the presidential speeches, so although the corpus may not be exhaustive, it is accurate enough.
