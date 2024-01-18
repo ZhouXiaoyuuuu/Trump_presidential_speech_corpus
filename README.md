@@ -1,1 +1,2 @@
-# Trump_presidential_speech_corpus
+# Exploring the Presidential Speeches of Donald Trump
+# Introduction
