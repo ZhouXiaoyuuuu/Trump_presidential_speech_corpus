@@ -7,7 +7,7 @@ This corpus comprises data collected from Donald Trump's presidential speeches s
 ### Target Audience and Intended Use  
 This corpus is tailored for researchers, scholars, and students in political science, linguistics, and social sciences. Additionally, it is accessible to the general public interested in American politics. The primary aim of this corpus is to provide a comprehensive resource for in-depth studies and research on the language and themes within presidential speeches, particularly those delivered by Donald Trump during his tenure. Its intended applications include political discourse analysis, linguistic studies, public opinion research, etc.  
 #### Potential Research Questions  
-&bull; What are the most frequently words used by Trump?
+&bull; What are the most frequently words used by Trump?  
 &bull; Does the main focus of Trump change and what factors are associated with it?
 ### Text Selection Criteria  
 There are 32 presidential speeches for this corpus. The selection of speeches for this corpus was based on [the Presidential Speeches Collection](https://millercenter.org/the-presidency/presidential-speeches) from [Miller Center's website](https://millercenter.org/the-presidency/presidential-speeches). According to the [Miller Center of Public Affairs](https://data.millercenter.org/), the collection is not exhaustive, with over 1000 speeches available, and inclusion in the collection is an editorial decision by Miller Center staff.
@@ -29,16 +29,15 @@ This corpus organizes Trump's speeches into 32 separate text files, categorized 
 &bull; Tokens: Individual words or text units after preprocessing.  
 &bull; Lemmas: Base or normalized forms of words after preprocessing.  
 &bull; Parts-of-speech: Part-of-speech tags indicating the grammatical category of each word after preprocessing.  
-&bull;President: The name of the president.  
+&bull; President: The name of the president.  
 &bull; Date: The date of the speech.  
 &bull; Summary: A summary of the speech.  
-&bull;Link: The link to the speech.
+&bull; Link: The link to the speech.
 ### Quality Check  
 1. The staff at the Miller Center ensure the accuracy of the corpus by refraining from making any adjustments to the transcriptions of presidential speeches during the process of converting audio materials into written documents.
 2. Data cleaning and preprocessing are undertaken to elevate the accuracy and quality of the data.
 3. The decision to include presidential speeches in the corpus is made by the editors at the Miller Center. The criteria for inclusion may be subjective and influenced by the biases of individual. Additionally, it's acknowledged that the corpus may not be exhaustive.
-### Columns of CSV File with Annotations  
-&bull; Filename: The name of each speech delivered by Trump.  
-&bull; Title: The title of each speech in the text files.  
-&bull;
-
+## Files  
+&bull; Individual text files (.txt): Each speech generates a separate text file. The filename format is Trump_speech_i_Title.txt, where "i" is the speech number, and "Title" is the speech title. Each text file contains the original text of the corresponding speech.  
+&bull; CSV file (Trump_presidential_speeches.csv): Contains aggregated data for all speeches. Each row represents a speech, providing detailed information, preprocessed text, and annotation details.  
+&bull; Codes (Jupyter Notebook): Trump_presidential_speeches.ipynb documents the process of collecting, cleaning, and annotating Trump's speeches, along with creating CSV and individual text files.
