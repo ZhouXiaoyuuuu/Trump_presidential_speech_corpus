@@ -26,3 +26,8 @@ This corpus organizes Trump's speeches into 32 separate text files, categorized 
 1. The staff at the Miller Center ensure the accuracy of the corpus by refraining from making any adjustments to the transcriptions of presidential speeches during the process of converting audio materials into written documents.
 2. Data cleaning and preprocessing are undertaken to elevate the accuracy and quality of the data.
 3. The decision to include presidential speeches in the corpus is made by the editors at the Miller Center. The criteria for inclusion may be subjective and influenced by the biases of individual. Additionally, it's acknowledged that the corpus may not be exhaustive.
+### Columns of CSV File with Annotations  
+&bull; Filename: The name of each speech delivered by Trump.  
+&bull; Title: The title of each speech in the text files.  
+&bull;
+
